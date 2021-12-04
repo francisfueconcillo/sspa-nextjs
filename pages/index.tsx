@@ -24,7 +24,7 @@ const Home: NextPage = () => {
       {/* Remove this if you only support browsers that support async/await.
       This is needed by babel to share largeish helper code for compiling async/await in older
       browsers. More information at https://github.com/single-spa/create-single-spa/issues/112 */}
-      <script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.7/runtime.min.js"></script>
+      {/* <script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.7/runtime.min.js"></script> */}
 
       
       
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
       More information about shared dependencies can be found at https://single-spa.js.org/docs/recommended-setup#sharing-with-import-maps. */}
       
       <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script"/>
-      <script type="systemjs-importmap" src="/api/import-map"></script>
+      {/* <script type="systemjs-importmap" src="/api/import-map"></script> */}
 
       <main className={styles.main}>
         <h1 className={styles.title}>
