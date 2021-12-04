@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack serve --port 9000 --env isLocal",
-    "build": "next build",
+    "build": "webpack --mode=production",
     "start": "webpack serve --port 3000"
   },
   "dependencies": {

@@ -2,7 +2,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 
-type Data = {   // eslint-disable-line no-undef
+type Data = { // eslint-disable-line no-undef
   imports: object // eslint-disable-line no-undef
 }
 
