@@ -41,6 +41,9 @@ const Home: NextPage = () => {
       More information about shared dependencies can be found at https://single-spa.js.org/docs/recommended-setup#sharing-with-import-maps. */}
       
       <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script"/>
+      
+      
+      {/* Error: External synchronous scripts are forbidden. See: https://nextjs.org/docs/messages/no-sync-scripts. */}
       {/* <script type="systemjs-importmap" src="/api/import-map"></script> */}
 
       <main className={styles.main}>

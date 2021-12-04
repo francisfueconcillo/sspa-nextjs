@@ -14,3 +14,6 @@ Integration of SSPA with Next JS
   },
 
 ```
+
+### Status
+- **It doesnt work** when deployed to Vercel because package.json's custom `npm run  start` usng webpack cli is ignored
